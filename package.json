@@ -1,0 +1,17 @@
+{
+  "name": "testeprotractor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor": "5.4.3"
+  },
+  "devDependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  }
+}
